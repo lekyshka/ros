@@ -1,0 +1,6 @@
+1 ter
+colcon build --packages-select move_to_goal
+source install/local_setup.bash
+source install/setup.bash
+
+ros2 run move_to_goal move_to_goal_node 1.0 1.0
