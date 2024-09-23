@@ -1,0 +1,11 @@
+1 ter
+colcon build --packages-select turtle_action_commands
+source install/local_setup.bash
+source install/setup.bash
+ros2 run turtlesim turtlesim_node
+
+2 ter
+ros2 run turtle_action_commands action_server
+
+3 ter
+ros2 run turtle_action_commands action_client
