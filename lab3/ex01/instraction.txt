@@ -1,0 +1,4 @@
+1 ter
+ros2 run service_full_name service_name
+2 ter 
+ros2 run service_full_name client_name bannikova alena alekseevna
