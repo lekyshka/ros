@@ -1,4 +1,7 @@
 1 ter
+colcon build --packages-select service_full_name
+source install/local_setup.bash
+source install/setup.bash
 ros2 run service_full_name service_name
 2 ter 
 ros2 run service_full_name client_name bannikova alena alekseevna
