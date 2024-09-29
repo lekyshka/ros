@@ -1,0 +1,7 @@
+1 ter
+colcon build --packages-select time_race
+. install/setup.bash
+ros2 launch time_race race.launch.py delay:=5.0
+
+2 ter
+ros2 run turtlesim turtle_teleop_key
