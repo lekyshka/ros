@@ -1,0 +1,7 @@
+1 ter
+colcon build --packages-select two_turtles_one_carrot
+source install/setup.bash
+ros2 launch two_turtles_one_carrot carrot.launch.py radius:=5
+
+2 ter
+ros2 run turtlesim turtle_teleop_key
