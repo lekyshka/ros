@@ -1,0 +1,7 @@
+1 ter
+colcon build --packages-select robot_bringup robot_description unique_movements
+source install/setup.bash
+ ros2 launch robot_bringup unique.launch.py
+
+ 2 ter
+ ros2 run unique_movements mvmnts
