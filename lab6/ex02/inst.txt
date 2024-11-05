@@ -1,0 +1,2 @@
+нужно добавить топик камеры
+ros2 topic echo /depth/camera_info
