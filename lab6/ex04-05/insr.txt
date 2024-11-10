@@ -1,0 +1,7 @@
+4
+ros2 launch move_lab6 depth.launch.py
+5
+ros2 launch move_lab6 lidar.launch.py
+
+colcon build --packages-select robot_bringup robot_description move_lab6
+source install/setup.bash
